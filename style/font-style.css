@@ -1,0 +1,137 @@
+
+:root {
+    --primary-color: #FF9501;
+    --font-color-paragraph: #CFCFCF;
+    --box-color: #2B2B36;
+} 
+
+
+
+.poppins-13 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    line-height: 28px;
+}
+.poppins-14 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+}
+.poppins-16 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+}
+.poppins-18 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.36px;
+}
+.poppins-22 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px; 
+    line-height: 32px;
+}
+
+
+.montserrat-13 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    line-height: 28px;
+}
+.montserrat-14 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+}
+.montserrat-16 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+.montserrat-18 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px; 
+}
+.montserrat-19 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.montserrat-26 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px; 
+}
+
+
+
+.extrabold {    
+    font-weight: 900;
+}
+.semibold {    
+    font-weight: 600;
+}
+.medium {    
+    font-weight: 500;
+}
+.regular {
+    font-weight: 400;
+}
+.light {
+    font-weight: 300;
+}
+.italic {
+    font-style: italic;
+}
+
+
+.text-center {
+    text-align: center;
+} 
+
+
+h1 {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px;
+    margin-top: 0;
+    margin-bottom: 26px;
+} 
+
+.parag {
+    color: var(--font-color-paragraph);
+}
+
+
+/* TITLE STYLE */
+ 
+.title {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.title p {
+    margin: 0 15px 0 0;
+}
+
+.title:before {
+    content: '';
+    height: 32px;
+    width: 7px;
+    background: var(--primary-color);
+    display: block;
+    margin-right: 15px;
+}
+
+.title:after {
+    content: '';
+    display: block;
+    width: 170px;
+    height: 2px;
+    background: var(--primary-color);
+}
+ 
